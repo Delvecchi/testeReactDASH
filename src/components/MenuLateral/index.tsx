@@ -8,7 +8,6 @@ import Configuracoes from "../../assets/img/icone-config.png"
 import Sair from "../../assets/img/icone-sair.png"
 import Lupa from "../../assets/img/icone-lupa.png"
 
-import { Link } from "react-router-dom";
 import "./style.css"
 
 function MenuLateral() {
