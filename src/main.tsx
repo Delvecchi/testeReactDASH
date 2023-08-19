@@ -8,9 +8,9 @@ import Header from './components/Header/index.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    
-    <MenuLateral />
     <Header/>
+    <MenuLateral />
+    
     
   </React.StrictMode>,
 )
