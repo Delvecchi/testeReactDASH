@@ -15,7 +15,7 @@ function MenuLateral() {
         <>
             <aside>
                 <section className="menu-fechado">
-                    <div className="esquerda">
+                    <div className="posicionamento_menu-fechado">
                         <img
                             className="logo"
                             src={Logo}
@@ -57,9 +57,9 @@ function MenuLateral() {
                                         src={Alertas}
                                         alt="Icone de Alertas"
                                     />
-                                </button>
-
-                                <div className="p-menu s">
+                                </button>                       
+                        </div>
+                        <div className="p-menu s">
                                     <button className="btn-menu config">
                                         <img
                                             className="i-config"
@@ -76,9 +76,8 @@ function MenuLateral() {
                                     </button>
                                 </div>
                             </div>
-                        </div>
                     </div>
-                    <div className="direita">
+                    {/* <div className="direita">
                         <div className="posicionamento_favoritos">
                             <span>Análises</span>
                             <div className="favoritos">
@@ -93,7 +92,7 @@ function MenuLateral() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
                 <section className="menu-aberto">
